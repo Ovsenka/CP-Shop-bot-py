@@ -29,11 +29,3 @@ id_first_mb = list(MBs.keys())[0]
 id_first_vc = list(VCs.keys())[0]
 id_first_ram = list(RAMs.keys())[0]
 id_first_ps = list(PSs.keys())[0]
-
-print("Процессоров: ", len(CPUs))
-print("Мат.плат: ", len(MBs))
-print("Видеокарт: ", len(VCs))
-print("Оперативной памяти: ", len(RAMs))
-print("Блоков питания: ", len(PSs))
-print("*"*45)
-
